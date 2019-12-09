@@ -30,8 +30,8 @@ class Reader:
         self._log_file.close()
 
 
-reader1 = Reader('log1.log')
-reader2 = Reader('log2.log')
+reader1 = Reader('1.log')
+reader2 = Reader('2.log')
 obs1, log1 = reader1.read()
 obs2, log2 = reader2.read()
 
